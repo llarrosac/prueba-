@@ -1,69 +1,129 @@
-/* styles.css */
-
-/* Reset de marges i padding */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
-/* Estils per a la navbar */
-nav {
-    background-color: #f8f9fa;
-    padding: 15px;
+.gradiente {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, #f181d1, #ff0c86);
+  z-index: -1; 
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+header {
+  height: 100px; /* Ajusta la altura a tu gusto */
+  display: flex;
+  justify-content: center; /* centra horizontalmente */
+  align-items: center;     /* centra verticalmente */
+  font-size: 3rem;         /* tamaño del texto */
+  font-weight: bold;
+  color: #ffdfef;          /* color del texto */
+  background:  #ffcfe7; /* o usa una imagen si quieres */
+  text-align: center;
+}
+
+/* Navar */
+.custom-navbar {
+  background-image: url("../sakura.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 70px;
+}
+
+/* CARDS */
+.card {
+   border: 2px solid rgb(255, 192, 203);
+  background-color: hsl(328, 100%, 84%);
+  border-radius: 15px;
+  color:#ea006e;
+ margin-top: 10px;
+margin-left: 30px;
+height: 500px;
+padding: 1rem;
+    margin-bottom: 10px; /* espacio entre filas */
     display: flex;
-    justify-content: center;
+  flex-direction: column;  /* organiza imagen, texto y botón verticalmente */
+  justify-content: space-between; /* empuja el botón hacia abajo */
 }
 
-nav ul li {
-    margin: 0 20px;
+.card1 {
+   border: 2px solid rgb(252, 207, 226);
+  background-color: #ff94ad;
+  border-radius: 15px;
+  color:#ea006e;
+ margin-top: 50px;
+margin-left: 500px;
+top: -550px;
+height: 500px;
+padding: 1rem;
+}
+.card2 {
+   border: 2px solid pink;
+  background-color: #ffb7d6;
+  border-radius: 15px;
+  color:#ea006e;
+ margin-top: 50px;
+margin-left: 950px;
+top: -1100px;
+height: 500px;
+padding: 1rem;
+}
+.card3 {
+  border: 2px solid pink;
+  background-color: #ff94ad;
+  border-radius: 15px;
+  color:#ea006e;
+ margin-top: 50px;
+margin-left: 1400px;
+top: -1650px;
+height: 500px;
+padding: 1rem;
+}
+.img {
+  position: relative;
+  object-fit: cover; 
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.card-body {
+
+  position: relative;
+  top: -15px;
+  
+  }
+
+.card-img-fixed {
+  width: 100%;       /* ocupa todo el ancho de la card */
+  height: 200px;     /* altura fija para todas las imágenes */
+  object-fit: cover; /* recorta la imagen manteniendo proporciones */
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
+/* CAROUSEL */
+.text-justify p {
+  text-align: justify;
 }
 
-nav ul li a:hover {
-    color: #007bff;
+/* FOOTER */
+.custom-footer {
+  background-color: #ffb4e0;
+  color: #ff9fcc;
+  padding: 5px 0;
+  margin-top: 5px; /* separa del contenido */
 }
 
-/* Estils per al contenidor principal */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+.custom-footer a {
+  color: #3c051f;
+  text-decoration: none;
+  margin: 0 5px;
 }
 
-/* Estils per a les files i columnes */
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-bottom: 20px;
-}
 
-.col {
-    flex: 1;
-    min-width: 300px;
-    margin: 10px;
-    padding: 20px;
-    background-color: #f1f1f1;
-    border-radius: 8px;
-}
-
-/* Estils per a títols i paràgrafs */
-h1, h2 {
-    color: #333;
-}
-
-p {
-    color: #666;
+/* TEXT */
+p{
+  color:#320c1f
 }
