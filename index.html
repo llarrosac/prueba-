@@ -3,18 +3,19 @@
 
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <title>My Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Activitat Pràctica</title>
 </head>
-<style>
-html, body {
- background-color: #fa87dd }
-</style> 
+
+<body>
+<header>
+  CONTROL-HER
+</header>
+
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg custom-navbar sticky-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,36 +27,148 @@ html, body {
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="#">Juegos destacados</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Pricing</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>   
         </li>
       </ul>
     </div>
   </div>
 </nav>
 
-    <!-- Main content -->
-   <div class="container text-center">
-  <div class="row">
-    <div class="col">
-      Column
+<!--CARDS-->
+<h1 style="color: #2a0517; text-align: center; font-weight: 700;">JUEGOS DESTACADOS</h1>
+<div class="container my-5">
+  <div class="row g-2">
+
+    <!-- Card 1 -->
+    <div class="col-md-3">
+      <div class="card">
+        <img src="https://blogger.googleusercontent.com/img/b/R29vXsEjIv3H56FdlVKnd7fqJkj5SeKBxi2wopFDfhAcWz0SfmA9ikIgpOKvm4Je_mb4TvujSgRsFBKWo11lzLp8q6XCPF_fHGbhorLyR_bE472Pr2XxWWF8YWyUgd1m32tUK3zCyBU9RFVcKpfc/s1600/yfuxpab.jpg" class="card-img-top card-img-fixed" alt="Corazón de melón">
+        <div class="card-body">
+          <h5>Corazón de melón</h5>
+          <p>Este juego Otome creado en 2011, donde las jugadoras podrán recibir merchandising y premios relacionados con el juego.</p>
+          <a href="https://www.corazondemelon.es/" class="btn btn-primary">Clica aquí</a>
+        </div>
+      </div>
     </div>
-    <div class="col">
-      Column
+
+    <!-- Card 2 -->
+    <div class="col-md-3">
+      <div class="card">
+        <img src="https://cloudfront-eu-central-1.images.arcpublishing.com/diarioas/5XOQETYSHVNLBOJBDOATQJZH4M.jpg" class="card-img-top card-img-fixed" alt="Celeste">
+        <div class="card-body">
+          <h5>Celeste</h5>
+          <p>Celeste es un videojuego donde la protagonista Madeline enfrenta sus demonios internos mientras escala la montaña Celeste.</p>
+          <a href="https://www.celestegame.com/" class="btn btn-primary">Clica aquí</a>
+        </div>
+      </div>
     </div>
-    <div class="col">
-      Column
+
+    <!-- Card 3 -->
+    <div class="col-md-3">
+      <div class="card">
+        <img src="https://i0.wp.com/www.manubarba.com/wp-content/uploads/2020/04/5.jpg?fit=1024%2C576&ssl=1" class="card-img-top card-img-fixed" alt="Journey">
+        <div class="card-body">
+          <h5>Journey</h5>
+          <p>Un juego multijugador que nos transporta a un mundo mágico y onírico siguiendo la travesía de un viajero.</p>
+          <a href="https://store.epicgames.com/es-ES/p/journey" class="btn btn-primary">Clica aquí</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="col-md-3">
+      <div class="card">
+        <img src="https://i.guim.co.uk/img/media/846c3284cb9ce5d216fc77a3e7d871e3dc8a4c6c/0_0_1800_1080/master/1800.jpg?width=1200&quality=85&auto=format&fit=max&s=0a3213e83d68fa8da08cc0eb952741e4" class="card-img-top card-img-fixed" alt="Animal Crossing">
+        <div class="card-body">
+          <h5>Animal Crossing</h5>
+          <p>Un juego multijugador donde exploramos una isla mágica y podemos interactuar con personajes y amigos.</p>
+          <a href="https://animalcrossing.nintendo.com/es/" class="btn btn-primary">Clica aquí</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+<!-- Carousel -->
+<div class="container py-5">
+
+  <h1 style="color: #2a0517; text-align: center; font-weight: 700;">˚₊‧꒰ა EVENTOS ໒꒱ ‧₊˚</h1>
+
+  <div class="mx-auto p-4 shadow rounded" style="max-width: 850px; background-color: #ffdaf6;">
+    <div id="carouselExampleIndicators" class="carousel slide mx-auto" style="max-width: 800px;" data-bs-ride="carousel">
+
+    <!-- Slides -->
+    <div class="carousel-inner">
+
+      <div class="carousel-item active text-center">
+        <img src="valorant.avif" class="d-block mx-auto img-fluid" alt="valorant">
+        <div class="mt-3 text-justify">
+          <h5>⊹₊⟡⋆ TORNEO VALORANT ⋆⟡₊⊹</h5>
+          <p>¡Este año la convención se pone aún más intensa! Participa en nuestro torneo de Valorant, que se llevará a cabo durante la convención, y demuestra tus habilidades frente a otras gamers. Un espacio pensado especialmente para mujeres, con premios, diversión y mucha estrategia. ¡No te lo pierdas!</p>
+        </div>
+      </div>
+
+      <div class="carousel-item text-center">
+        <img src="cosplay.jpeg" class="d-block mx-auto img-fluid" alt="cosplay">
+        <div class="mt-3 text-justify">
+          <h5>⊹₊⟡⋆ CONCURSO DE COSPLAY ⋆⟡₊⊹</h5>
+          <p>Abierto a todas las participantes. Demuestra tu talento, originalidad y amor por los videojuegos. Premios para los disfraces más destacados y la oportunidad de inspirar a toda la comunidad gamer.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item text-justify">
+        <img src="charla.jpeg" class="d-block mx-auto img-fluid" alt="charla">
+        <div class="mt-3 text-center">
+          <h5>⊹₊⟡⋆ CHARLA CON CREADORAS ⋆⟡₊⊹</h5>
+          <p>Descubre historias, consejos y secretos de artistas, desarrolladoras y programadoras que están transformando la industria. Inspírate, aprende y conecta con mujeres que están dejando huella en el mundo del gaming.</p>
+        </div>
+      
+      </div>
+    </div>
+
+    <!-- 🔽 Indicadors ara estan a sota 🔽 -->
+    <div class="carousel-indicators position-static mt-3">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Següent</span>
+    </button>
     </div>
   </div>
 </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+<!--FOOTER-->
+<footer class="custom-footer">
+  <div class="container text-center py-4">
+    <p>&copy; 2025 CONTROL-HER. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+
+<!-- Bootstrap JS bundle-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
-
 </html>
-
-
