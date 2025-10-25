@@ -158,6 +158,76 @@
   </div>
 </div>
 
+<div class="form-container">
+    <h2> ¡Mantente al día de las últimas novedades!</h2>
+    <p class="subtitle">Crea tu cuenta con nosotros:</p>
+    
+    <div class="mb-3">
+      <label for="email" class="form-label">Correo electrónico</label>
+      <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
+    </div>
+
+    <div class="mb-3">
+      <label for="password" class="form-label">Contraseña</label>
+      <input type="password" class="form-control" id="password" placeholder="Introduce tu contraseña">
+    </div>
+
+    <div class="mb-3">
+      <label for="suggestions" class="form-label">¡Déjanos saber tus sugerencias!</label>
+      <textarea class="form-control" id="suggestions" rows="3" placeholder="Escribe aquí tus ideas..."></textarea>
+    </div>
+
+    <button type="submit" class="btn-submit">Enviar</button>
+  </div>
+
+  <div class="ticket-container mt-5">
+  <h2 class="text-center mb-4">Compra tus entradas</h2>
+
+  <div class="input-group mb-3">
+    <span class="input-group-text" id="basic-addon-name">
+      <i class="bi bi-person-fill"></i>
+    </span>
+    <input type="text" class="form-control" placeholder="Nombre completo" aria-label="Nombre completo" aria-describedby="basic-addon-name">
+  </div>
+
+  <div class="input-group mb-3">
+    <label class="input-group-text" for="ticket-type">Tipo de entrada</label>
+    <select class="form-select" id="ticket-type">
+      <option selected>Selecciona...</option>
+      <option value="1">General - 20€</option>
+    
+      <option value="2">Premium - 40€</option>
+    </select>
+  </div>
+
+<!-- formulario -->
+  <div class="input-group mb-3">
+    <span class="input-group-text">Cantidad</span>
+    <input type="number" class="form-control" min="1" value="1" id="ticket-quantity">
+  </div>
+
+  <div class="input-group mb-3">
+    <span class="input-group-text">Total (€)</span>
+    <input type="text" class="form-control" id="ticket-total" placeholder="0.00" readonly>
+  </div>
+
+  <div class="input-group mb-3">
+    <label class="input-group-text" for="payment-method">Método de pago</label>
+    <select class="form-select" id="payment-method">
+      <option selected>Selecciona...</option>
+      <option value="1">Tarjeta de crédito</option>
+      <option value="2">PayPal</option>
+      <option value="3">Bizum</option>
+    </select>
+  </div>
+
+  <div class="form-text mb-3 text-center">
+    Recibirás tus entradas por correo electrónico tras completar el pago.
+  </div>
+
+  <button type="button" class="btn btn-primary w-100">Comprar entradas</button>
+</div>
+
 
 <!--FOOTER-->
 <footer class="custom-footer">
