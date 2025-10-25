@@ -121,9 +121,14 @@ padding: 1rem;
   text-decoration: none;
   margin: 0 5px;
 }
-
+header{
+  font-size: 50px;
+  text-align: center;
+  color: pink;
+}
 
 /* TEXT */
 p{
   color:#320c1f
 }
+
